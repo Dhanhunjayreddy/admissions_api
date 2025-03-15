@@ -3,18 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "start": "node server.js",
-  "postinstall": "npm rebuild better-sqlite3 --build-from-source"
-},
+    "start": "node server.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "better-sqlite3": "^8.7.0",
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
   }
 }
